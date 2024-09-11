@@ -133,4 +133,8 @@ function aleatorio (lista){
     return lista[posicao];
 }
 
+function aleatorio (lista){
+    const posiçao = Math.floor(Math.random()* lista.length);
+}
+
 mostraPergunta();
